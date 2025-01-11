@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    /* text-align: center; */
+
+}
+#counter {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+button {
+    /* padding: 10px 20px; */
+    font-size: 1rem;
+}
+#counter-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    gap: 5px;
+}
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    font-size: 14px;
+}
+
+.cell:hover {
+    background-color: lightblue;
+}

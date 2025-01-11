@@ -4,28 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Increment Button</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-        #counter {
-            font-size: 2rem;
-            margin: 20px 0;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Click to Increment</h1>
-    <div id="counter">0</div>
-    <button id="incrementButton">Increment</button>
-    <button id="incrementButton2">Increment times 1.01</button>
 
-    <script src="script.js"></script>
+
+<body>
+    <div id="counter-container">
+        <button id="incrementButton">Increment</button>
+        <div id="counter">0</div>
+    </div>
+    
+    <div class="grid" id="grid"></div>
+
+    <script type="module" src="script.js"></script>
 </body>
 </html>
