@@ -1,15 +1,14 @@
-// Select the counter and button elements
 const counterElement = document.getElementById('counter');
 const incrementButton = document.getElementById('incrementButton');
 
-// Initialize the counter value
 let count = 0;
 
-// Add a click event listener to the button
 incrementButton.addEventListener('click', () => {
-    // Increment the count
     count += 1;
+    counterElement.textContent = count;
+});
 
-    // Update the counter's text
+incrementButton2.addEventListener('click', () => {
+    count *= 1.01;
     counterElement.textContent = count;
 });
