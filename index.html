@@ -3,13 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello, World!</title>
+    <title>Increment Button</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #counter {
+            font-size: 2rem;
+            margin: 20px 0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1rem;
+        }
+    </style>
 </head>
 <body>
-    <h1 id="hello">Hello, World!</h1>
-    <button id="changeText">Change Text</button>
-    
-    <!-- Link to the JavaScript file -->
-    <script src="example.js"></script>
+    <h1>Click to Increment</h1>
+    <div id="counter">0</div>
+    <button id="incrementButton">Increment</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
